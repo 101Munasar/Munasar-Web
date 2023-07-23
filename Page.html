@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Login</title>
+  </head>
+  <style>
+  body{
+    background:rgb(170, 120, 130);
+    color: white;
+  }
+    .login{
+      position: absolute;
+      top: 150px;
+      left: 40px;
+      width: 80%;
+      height: 30%;
+      border: 2px solid silver;
+      overflow: hidden;
+      border-radius: 30px;
+      background:rgb(10, 10,100);
+      box-shadow: 0px 0px 5px;
+    }
+    .name{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    }
+    .lastname{
+      position: absolute;
+      top: 10px;
+      left: 210px;
+    }
+    .phone{
+      position: absolute;
+      top: 100px;
+      left: 10px;
+    }
+    .password{
+      position: absolute;
+      top: 135px;
+      left: 10px;
+    }
+    
+    #name{
+      position: absolute;
+      top: 50px;
+      left: 10px;
+      width: 130px;
+      text-align: center;
+    }
+    #lastname{
+      position: absolute;
+      top: 50px;
+      left: 180px;
+      width: 130px;
+      text-align: center;
+    }
+    #phone{
+   position: absolute;
+   top: 115px;
+   left: 130px;
+   width: 180px;
+    }
+    #password{
+      position: absolute;
+      top: 150px;
+      left: 130px;
+      width: 180px;
+    }
+    #submit{
+      position: absolute;
+      top: 80%;
+      left: 190px;
+      width: 90px;
+      height: 30px;
+      border-radius: 10px;
+      background:rgb(20, 150, 200);
+    }
+    #submit:active{
+      background:orange;
+      color: black;
+    }
+    .Top{
+      position: absolute;
+      left: 0px;
+      top: 10px;
+      width: 100%;
+      height: 50px;
+      border: 1px solid silver;
+      border-radius: 20px;
+      overflow: hidden;
+      background:rgb(10, 10, 100);
+    }
+    a{
+      color: white;
+    }
+    #about{
+      position: absolute;
+      left: 60px;
+      top: 30%;
+      font-size:1.2em;
+      text-decoration:underline;
+    }
+    #help{
+      position: absolute;
+      left: 140px;
+      font-size:1.2em;
+      top: 30%;
+      
+    }
+    #Contact{
+      position: absolute;
+      left: 200px;
+      font-size:1.2em;
+      top: 30%;
+    }
+    #home{
+      position: absolute;
+      top: 30%;
+      left: 290px;
+      font-size:1.2em;
+    }
+    #next{
+      position: absolute;
+      top: 75%;
+      left: 150px;
+      width: 90px;
+      height: 30px;
+      border-radius:10px;
+     background:orange;
+     color: black;
+    }
+    #next:active{
+      box-shadow: 0px 0px 5px ;
+      color: white;
+      background:blue;
+    }
+  </style>
+  <body>
+    <div class=Top10>
+      <button id="next" onclick="next()">Next</button>
+      <div class="Top">
+        <a id="home" href="#">Home</a>
+        <a id="about" href="#">About</a>
+        <a id="help" href="#">Help</a>
+        <a id="Contact" href="#">Contact</a>
+      </div>
+      <div class="login">
+        <p class="name">First Name:</p>
+        <input type="text" placeholder="First Name" id="name">
+         <p class="lastname">Last Name:</p>
+        <input type="text" placeholder="Last Name" id="lastname">
+        <p class="phone">Phone number:</p>
+        <input type="number" placeholder="Phone mumber" id="phone">
+        <p class="password">Password:</p>
+        <input type="password" placeholder="password" id="password">
+        <input type="submit" value="Login" id="submit">
+      </div>
+    </div>
+    <script>
+    function next(){
+     
+    }
+    
+    </script>
+  </body>
+</html>
